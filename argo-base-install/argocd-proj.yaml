@@ -12,9 +12,9 @@ spec:
   clusterResourceWhitelist:
     - group: '*'
       kind: '*'
-  description: Project to configure argocd self-manage application
+  description: Project for argo root app
   destinations:
     - namespace: argocd
       server: https://kubernetes.default.svc
   sourceRepos:
-    - https://github.com/PacktPublishing/ArgoCD-in-Practice.git
+    - https://github.com/nikkyron-net/CD.git

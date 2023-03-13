@@ -8,9 +8,9 @@ spec:
     server: https://kubernetes.default.svc 
   project: argocd 
   source: 
-    path: ch4/kustomize-installation 
-    repoURL: https://github.com/PacktPublishing/ArgoCD-in-Practice.git 
-    targetRevision: main
+    path: argo-base-install 
+    repoURL: https://github.com/nikkyron-net/CD.git
+    targetRevision: master
   syncPolicy:
     automated:
       prune: false
